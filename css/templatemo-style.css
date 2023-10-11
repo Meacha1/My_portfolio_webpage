@@ -1,11 +1,3 @@
-/*
-
-Ultra Profile
-
-https://templatemo.com/tm-464-ultra-profile
-
-*/
-
 body {
   background: #ffffff;
   font-family: 'Raleway', sans-serif;
@@ -431,7 +423,22 @@ input { height: 50px; }
 #work > div > div > div.col-md-offset-1.col-md-11 {
   text-align: center;
 }
+
+#contact > div > div > div.col-md-10.col-sm-10 {
+  margin: 0 auto;
+  width: 100%;
+}
+#contact > div > div > div.col-md-10.col-sm-10 > form {
+  margin: 0 auto;
+  width: 100%;
+}
 /* END CONTACT */
+
+/* START FOOTER */
+#contact > div > div > div.col-md-12.col-sm-12 {
+  margin: 0 auto;
+}
+/* END FOOTER */
 
 @media screen and (max-device-width: 1024px){
   .templatemo-home {
